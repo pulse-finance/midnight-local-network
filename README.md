@@ -65,7 +65,7 @@ Follow these steps to set up the local network and fund an address.
 Clone the project and navigate into the directory:
 
 ```bash
-git clone <your-repo-url> midnight-local-network
+git clone git@github.com:bricktowers/midnight-local-network.git midnight-local-network
 cd midnight-local-network
 ```
 
