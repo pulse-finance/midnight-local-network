@@ -16,7 +16,7 @@ function getReceiverAddressFromArgs(): string {
 
     if (!address) {
         // Keep this message super obvious for CLI use
-        console.error('Usage: node transfer.js <receiverAddress>');
+        console.error('Usage: yarn fund <receiverAddress>');
         process.exit(1);
     }
 
