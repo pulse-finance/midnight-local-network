@@ -1,9 +1,6 @@
 services:
   proof-server:
-    image: "midnight-proof-server:prebaked"
-    build:
-      context: ./proof-server
-      dockerfile: Dockerfile
+    image: "cschmitz398/midnight-proof-server:6.1.0-alpha.6"
     container_name: "proof-server"
     ports:
       - "6300:6300"

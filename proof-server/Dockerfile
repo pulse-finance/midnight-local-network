@@ -1,8 +1,6 @@
-# Copyright 2025 Brick Towers
-
 # Accept base image version as a build argument (global scope)
 ARG PROOF_SERVER_VERSION=4.0.0
-ARG CIRCUIT_PARAM_RANGE="10 11 12 13 14 15 16 17"
+ARG CIRCUIT_PARAM_RANGE="4 5 6 7 8 9 10 11 12 13 14 15 16 17"
 
 FROM alpine:latest AS downloader
 
